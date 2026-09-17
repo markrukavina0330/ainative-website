@@ -1,0 +1,24 @@
+# AI Native
+
+> AI Native is the AI workforce firm for U.S. small and medium-sized businesses. It designs, installs, trains, and manages a complete AI agent workforce for every worker in every department — a Chief of Staff agent for every worker and agents for sales, customer service, bookkeeping, marketing, operations, HR, and IT — done for you, reported in the business's own numbers. Its model has four stages: the Evaluation, the Install, Management, and the Report. It serves businesses that serve people in person, sell products to people, serve other businesses, and supply other businesses, from one-person operations to companies of 500.
+
+AI Native™ is a trademark. Pronounced "A-I Native". Website: https://ainative.ai. Contact: sales@ainative.ai, 602-680-8011. Serves the United States only; does not serve enterprises.
+
+## What AI Native does
+- Designs, installs, trains, and manages a complete AI agent workforce for every worker in every department of a small or medium-sized business (1–500 employees), done for you.
+- Agents: a Chief of Staff agent for every worker; Sales, Customer Service (chat, email, voice), Bookkeeping, Marketing, Operations, HR, and IT Helpdesk agents — examples; the workforce covers every department a business has.
+- Tools: the tools a business keeps, the tools AI Native brings (website chat, a scheduling calendar, a bookkeeping system, a customer-service inbox — agent-ready, licensed on the client's behalf, set up and taught), and the tools AI Native makes.
+- Four stages: the Evaluation (led by a senior leader who has run a business like the client's), the Install (tools first, then agents; staff trained; nothing installed until the staff can run it), Management (ongoing), the Report (work completed, hours returned, performance — measured or labelled a target).
+- Every AI Native agent identifies itself as an AI agent in its first sentence and hands to a person when asked.
+- Tagline: "Your business, AI Native." Category: the AI workforce firm. Outcome: the client becomes an AI Native company.
+
+## Pages
+- [Home](https://ainative.ai/): AI, built into your business.
+- [How it works](https://ainative.ai/how-it-works.html): the Evaluation, the Install, Management, the Report; agents need tools.
+- [Your AI workforce](https://ainative.ai/workforce.html): what each agent does.
+- [Find your business](https://ainative.ai/businesses/index.html): dental, HVAC, law firms, distributors, online stores and 80 more industries, mapped to four kinds of business.
+- [We serve people in person](https://ainative.ai/businesses/serve-people-in-person.html) · [We sell products to people](https://ainative.ai/businesses/sell-products-to-people.html) · [We serve other businesses](https://ainative.ai/businesses/serve-other-businesses.html) · [We supply other businesses](https://ainative.ai/businesses/supply-other-businesses.html)
+- [The Report](https://ainative.ai/report.html) · [Straight answers](https://ainative.ai/answers.html) · [About](https://ainative.ai/about.html) · [How our agents identify themselves](https://ainative.ai/agents.html) · [Book the Evaluation](https://ainative.ai/evaluation.html)
+
+## Full text
+- [llms-full.txt](https://ainative.ai/llms-full.txt): the visible text of every page, in reading order.
