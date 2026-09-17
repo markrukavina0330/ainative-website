@@ -1,0 +1,76 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://ainative.ai/#organization",
+   "name": "AI Native",
+   "alternateName": "AI Native™",
+   "url": "https://ainative.ai/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://ainative.ai/assets/icon-512.png",
+    "width": 512,
+    "height": 512
+   },
+   "image": "https://ainative.ai/assets/og/og-home.png",
+   "description": "AI Native is the AI workforce firm for U.S. small and medium-sized businesses. It designs, installs, trains, and manages a complete AI agent workforce for every worker in every department — a Chief of Staff agent for every worker and agents for sales, customer service, bookkeeping, marketing, operations, HR, and IT — done for you, reported in the business's own numbers. Its model has four stages: the Evaluation, the Install, Management, and the Report. It serves businesses that serve people in person, sell products to people, serve other businesses, and supply other businesses, from one-person operations to companies of 500.",
+   "slogan": "Your business, AI Native.",
+   "telephone": "+1-602-680-8011",
+   "email": "sales@ainative.ai",
+   "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "knowsAbout": [
+    "AI agent workforce for small business",
+    "AI agents for small and medium-sized businesses",
+    "done-for-you AI for small business",
+    "AI automation for small business",
+    "AI customer service agent",
+    "AI receptionist and voice agent",
+    "AI bookkeeping agent",
+    "AI sales agent and speed-to-lead",
+    "AI marketing agent",
+    "AI Chief of Staff agent",
+    "AI for dental practices",
+    "AI for HVAC and home services",
+    "AI for law firms and agencies",
+    "AI for manufacturers and distributors",
+    "AI for e-commerce and retail",
+    "AI Native company"
+   ],
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "sales",
+     "telephone": "+1-602-680-8011",
+     "email": "sales@ainative.ai",
+     "areaServed": "US",
+     "availableLanguage": "English"
+    }
+   ],
+   "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+     "@type": "Service",
+     "name": "The AI Native Evaluation",
+     "serviceType": "Business evaluation for an AI agent workforce",
+     "provider": {
+      "@id": "https://ainative.ai/#organization"
+     }
+    }
+   }
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://ainative.ai/#website",
+   "url": "https://ainative.ai/",
+   "name": "AI Native",
+   "publisher": {
+    "@id": "https://ainative.ai/#organization"
+   },
+   "inLanguage": "en-US"
+  }
+ ]
+}
