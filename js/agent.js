@@ -6,7 +6,7 @@
   var doc = document;
   var CFG = window.AI_NATIVE_SITE || {};
   var AGENT = window.AINativeAgent = {
-    config: { mode: CFG.agentMode || "demo", endpoint: CFG.agentEndpoint || "", phone: CFG.phone || "", email: CFG.email || "", calendar: CFG.calendar || "", formEndpoint: CFG.formEndpoint || "", formEmail: CFG.formEmail || "" },
+    config: { mode: CFG.agentMode || "demo", endpoint: CFG.agentEndpoint || "", phone: CFG.phone || "", email: CFG.email || "", calendar: CFG.calendar || "", formEndpoint: CFG.formEndpoint || "", formAccessKey: CFG.formAccessKey || "", formEmail: CFG.formEmail || "" },
     open: open, close: close, send: send, mount: mount
   };
   var BADGE = '<svg viewBox="0 0 100 115" aria-hidden="true"><path d="M17,0 H83 A17,17 0 0 1 100,17 V80.5 H0 V17 A17,17 0 0 1 17,0 Z M29,14.1 H71 A4.3,4.3 0 0 1 71,22.7 H29 A4.3,4.3 0 0 1 29,14.1 Z" fill="currentColor" fill-rule="evenodd"/><path d="M0,80.5 H100 V98 A17,17 0 0 1 83,115 H17 A17,17 0 0 1 0,98 Z" fill="#E8A33D"/></svg>';
@@ -64,14 +64,15 @@
       c.innerHTML = '<strong>' + esc(m.title || "A person, not the agent") + '</strong><p>' + esc(m.text || "Here are the ways to reach a person. I've stepped back.") + '</p><div class="agent-card-actions">' + parts.join("") + '</div>';
     } else if (m.kind === "book") {
       c.innerHTML = '<strong>' + esc(m.title || "Book the Evaluation") + '</strong><p>' + esc(m.text || "Three fields. A person replies within one business day to set the time.") + '</p>' +
-        '<form class="agent-book"><input name="name" placeholder="Your name" required aria-label="Your name"><input name="email" type="email" placeholder="Work email" required aria-label="Work email"><input name="company" placeholder="Company" required aria-label="Company"><input type="hidden" name="_subject" value="Evaluation request via the site agent"><button class="btn btn-primary btn-sm" type="submit">Book it</button><span class="agent-book-status" role="status"></span></form>';
+        '<form class="agent-book"><input name="name" placeholder="Your name" required aria-label="Your name"><input name="email" type="email" placeholder="Work email" required aria-label="Work email"><input name="company" placeholder="Company" required aria-label="Company"><input type="hidden" name="subject" value="Evaluation request via the site agent"><input type="hidden" name="from_name" value="AI Native website agent"><button class="btn btn-primary btn-sm" type="submit">Book it</button><span class="agent-book-status" role="status"></span></form>';
       var f = c.querySelector("form");
       f.addEventListener("submit", function (e) {
         e.preventDefault(); var st = f.querySelector(".agent-book-status"); var data = new FormData(f); var a = AGENT.config;
-        if (a.formEndpoint) {
-          fetch(a.formEndpoint, { method: "POST", body: data, headers: { Accept: "application/json" } }).then(function (r) { if (!r.ok) throw 0; st.textContent = "Received. A person will reply to set the time."; f.querySelectorAll("input,button").forEach(function (x) { x.disabled = true; }); }).catch(function () { st.textContent = "That did not send — please use the Evaluation page."; });
+        if (a.formEndpoint && a.formAccessKey) {
+          data.append("access_key", a.formAccessKey);
+          fetch(a.formEndpoint, { method: "POST", body: data, headers: { Accept: "application/json" } }).then(function (r) { return r.json(); }).then(function (j) { if (!j || j.success === false) throw 0; st.textContent = "Received. A person will reply to set the time."; f.querySelectorAll("input,button").forEach(function (x) { x.disabled = true; }); }).catch(function () { st.textContent = "That did not send — please use the Evaluation page."; });
         } else if (a.formEmail) {
-          var lines = []; data.forEach(function (v, k) { if (k.charAt(0) !== "_") lines.push(k + ": " + v); });
+          var lines = []; data.forEach(function (v, k) { if (k !== "subject" && k !== "from_name") lines.push(k + ": " + v); });
           window.location.href = "mailto:" + a.formEmail + "?subject=" + encodeURIComponent("Evaluation request") + "&body=" + encodeURIComponent(lines.join("\n")); st.textContent = "Your email app should open with the request.";
         } else st.textContent = "The form is not connected yet.";
       });

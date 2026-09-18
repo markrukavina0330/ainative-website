@@ -5,16 +5,17 @@ This folder is the complete static site. Upload it as-is to the root of any stat
 ## Configuration (build_site.py, CFG) — current values
 | Key | Current | Note |
 |---|---|---|
-| FORM_ENDPOINT | not set | When set (Formspree, Basin, Netlify Forms, the CRM), the form and the agent's booking card POST here. Empty = the visitor's email app opens, addressed to FORM_EMAIL. |
-| FORM_EMAIL | evaluation@ainative.ai | Evaluation requests |
+| FORM_ENDPOINT | https://api.web3forms.com/submit | Web3Forms: each submission arrives as an email — no database, no server |
+| FORM_ACCESS_KEY | NOT SET — see README-LEADS.md | The Web3Forms key issued to mark@ainative.ai; lives in js/config.js |
+| FORM_EMAIL | mark@ainative.ai | Where leads arrive; also the fallback if the key is missing |
 | CONTACT_EMAIL | sales@ainative.ai | Footer, agents page, the agent's handoff card — confirmed |
 | CONTACT_PHONE | 602-680-8011 | Footer, Evaluation page, the agent's handoff card |
-| CALENDAR_URL | https://calendly.com/ainative/evaluation | PLACEHOLDER — replace with the real Calendly event link before go-live |
-| GA4_ID | G-XXXXXXXXXX | Google Analytics 4 measurement ID — PLACEHOLDER until you paste the real G- id (Admin → Data streams → Web) |
+| CALENDAR_URL | https://calendly.com/mark-ainative/ai-native-evaluation | live |
+| GA4_ID | G-XL9SC4C0EG | live |
 | AGENT_MODE / AGENT_ENDPOINT | demo / not set | "demo" answers from the site's own content in the browser; "live" POSTs to the endpoint — see README-AGENT.md |
 | REPLY_WITHIN | one business day | Shown beside the form |
 
-Still to supply: the real GA4 measurement ID; the real Calendly event link; the photograph of the senior leadership team in a client workplace (replace `assets/people/founders-workplace.jpg`, currently marked FPO, keeping the file name); counsel's review of privacy.html, terms.html, and the data answer; the agent backend.
+Still to supply: the Web3Forms access key (README-LEADS.md, two minutes); the photograph of the senior leadership team in a client workplace (replace `assets/people/founders-workplace.jpg`, currently marked FPO, keeping the file name); counsel's review of privacy.html, terms.html, and the data answer; the agent backend.
 
 ## Structure
 - `index.html` and the pages in `sitemap.xml`; `businesses/` holds the four category pages.
