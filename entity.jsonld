@@ -16,7 +16,6 @@
    "image": "https://ainative.ai/assets/og/og-home.png",
    "description": "AI Native is the AI workforce firm for U.S. small and medium-sized businesses. It designs, installs, trains, and manages a complete AI agent workforce for every worker in every department — a Chief of Staff agent for every worker and agents for sales, customer service, bookkeeping, marketing, operations, HR, and IT — done for you, reported in the business's own numbers. Its model has four stages: the Evaluation, the Install, Management, and the Report. It serves businesses that serve people in person, sell products to people, serve other businesses, and supply other businesses, from one-person operations to companies of 500.",
    "slogan": "Your business, AI Native.",
-   "telephone": "+1-602-680-8011",
    "email": "sales@ainative.ai",
    "areaServed": {
     "@type": "Country",
@@ -44,7 +43,6 @@
     {
      "@type": "ContactPoint",
      "contactType": "sales",
-     "telephone": "+1-602-680-8011",
      "email": "sales@ainative.ai",
      "areaServed": "US",
      "availableLanguage": "English"

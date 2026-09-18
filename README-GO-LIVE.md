@@ -9,7 +9,7 @@ This folder is the complete static site. Upload it as-is to the root of any stat
 | FORM_ACCESS_KEY | NOT SET — see README-LEADS.md | The Web3Forms key issued to mark@ainative.ai; lives in js/config.js |
 | FORM_EMAIL | mark@ainative.ai | Where leads arrive; also the fallback if the key is missing |
 | CONTACT_EMAIL | sales@ainative.ai | Footer, agents page, the agent's handoff card — confirmed |
-| CONTACT_PHONE | 602-680-8011 | Footer, Evaluation page, the agent's handoff card |
+| CONTACT_PHONE | not published | The form and Calendly are the only contact paths |
 | CALENDAR_URL | https://calendly.com/mark-ainative/ai-native-evaluation | live |
 | GA4_ID | G-XL9SC4C0EG | live |
 | AGENT_MODE / AGENT_ENDPOINT | demo / not set | "demo" answers from the site's own content in the browser; "live" POSTs to the endpoint — see README-AGENT.md |
