@@ -23,6 +23,8 @@
     var li = b.parentElement;
     b.addEventListener("click", function () { var open = b.getAttribute("aria-expanded") !== "true"; b.setAttribute("aria-expanded", String(open)); li.setAttribute("data-open", String(open)); });
     li.addEventListener("focusout", function (e) { if (!li.contains(e.relatedTarget)) { b.setAttribute("aria-expanded", "false"); li.removeAttribute("data-open"); } });
+    li.addEventListener("mouseleave", function () { b.setAttribute("aria-expanded", "false"); li.removeAttribute("data-open"); });
+    li.addEventListener("mouseenter", function () { b.setAttribute("aria-expanded", "true"); li.setAttribute("data-open", "true"); });
   });
   // theme: auto → light → dark
   var tb = doc.getElementById("theme-toggle"), tl = doc.getElementById("theme-label");
