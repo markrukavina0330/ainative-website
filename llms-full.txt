@@ -11,13 +11,6 @@ URL: https://ainative.ai/index.html
  Book the Evaluation See how the Install works 
  Or ask our agent — it's the same one we install. 
 
- Results this month design targets until measured 
-
- Calls answered 1,240 
- Leads answered in minutes 312 
- Meetings booked 41 
- Hours returned to the team 418.5 
-
 ### Find your business.
 
  Pick the one that sounds like you — or type what you do. Every kind of small and medium-sized business is here, in the words its owner would use.
@@ -26,7 +19,7 @@ URL: https://ainative.ai/index.html
 
  Pick your business and we will show you where your day goes and what we install.
 
- Law firm Accounting or CPA firm Bookkeeping firm Marketing agency Design agency PR firm IT provider or MSP Manufacturer Machine shop Wholesaler Distributor Industrial supplier Packaging company Food producer Dental practice Orthodontist Medical practice Urgent care Chiropractor Physical therapy Veterinary clinic E-commerce brand DTC brand Online store Retail store Boutique Specialty store Subscription box 
+ Dental practice Orthodontist Medical practice Urgent care Chiropractor Physical therapy Veterinary clinic HVAC Plumbing Electrical Roofing Pool service Landscaping Pest control House cleaning Salon Barbershop Spa or med spa Gym or fitness studio Yoga or pilates studio Auto repair Auto detailing Real estate brokerage Mortgage broker Insurance agency Tutoring Childcare Home care Moving company Restaurant Hotel or short-term rentals E-commerce brand DTC brand Online store Retail store Boutique Specialty store Subscription box Maker or craft business Furniture store Jewelry Apparel brand Supplements Pet products Franchise retail Garden center Wine and spirits Law firm Accounting or CPA firm Bookkeeping firm Marketing agency Design agency PR firm IT provider or MSP Staffing agency Recruiter Consultancy Commercial contractor Commercial cleaning Commercial landscaping Freight or logistics broker Architecture firm Engineering firm Property management Security services Training company Event production Printing company Manufacturer Machine shop Wholesaler Distributor Industrial supplier Packaging company Food producer Beverage producer Building materials Parts supplier Software company Hardware vendor Medical device supplier Restaurant supplier Agricultural supplier Contract manufacturer Signage company 
 
  Not on the list? Every business with a phone, an inbox, and books has manual work. Book the Evaluation and we will map yours.
 
@@ -86,6 +79,19 @@ URL: https://ainative.ai/index.html
  These are examples. The workforce covers every department you have.
 
  What each agent does, and how it works with your people 
+
+### You stay in control.
+
+ Agents take the routine. You keep the decisions, the visibility, and the data.
+
+#### Checkpoints, where you want them
+ Every agent works inside limits you set: what it may answer on its own, what it may do on its own, and what waits for a person — a refund, a quote above a threshold, a booking outside hours. Those checkpoints are written into the plan and built into the workforce. At each one, the agent hands to a person.
+
+#### Every conversation, on the record
+ Every call, chat, and email an agent has is logged for you — readable, searchable, summarized in the Report, and live in the dashboard. You see what it said, what it did, and where it handed off.
+
+#### Your data stays home
+ Agents work inside the systems you already use, and that is where your data lives and stays. Nothing is moved to a new place and nothing leaves your business. What stays where is written down before anything is installed.
 
 ### Agents need tools. We bring them.
 
@@ -184,18 +190,13 @@ URL: https://ainative.ai/index.html
  What you see, in your own numbers. A sample page; every figure is a design target until measured.
 
  Calls answered 1,240 +18% vs last month Leads answered in minutes 312 +22% vs last month Meetings booked 41 +9% vs last month Hours returned 418.5 target 
- Hours per week on manual work — before the Install and after 
-- 
-- 
-- 
-- 
-- 38 9 Sales 52 6 Service 30 4 Books 26 11 Ops Manual AI Native design targets until measured 
+
  What the Report measures and how 
 
 ### Straight answers.
 
-#### Will it embarrass us in front of customers?
- Every agent says what it is in its first sentence, answers only from your data, books in under a minute, and hands to a person the moment someone asks. Before it speaks to a single customer, you approve its first hundred replies.
+#### Can we see everything an agent says to a customer?
+ Yes. Every conversation an agent has — every call, chat, and email — is on the record for you: readable, searchable, summarized in the Report, and live in the dashboard. You see what it said, what it did, and where it handed to a person. Before it speaks to a single customer, you approve its first hundred replies.
 
 #### Will my people use it?
  Training is inside the Install. Nothing goes live until your staff can run it, and the first thing every person gets is a Chief of Staff agent — so the first thing the workforce does is give them their day back.
@@ -217,12 +218,6 @@ URL: https://ainative.ai/index.html
 ### Book the Evaluation.
  We meet with you and your leadership, map every department, and show you where an agent workforce fits. You leave with the number and the timeline in writing.
 
- Your name 
- Company 
- Work email 
- Phone optional 
- Book the Evaluation A person replies within one business day. No newsletter, no drip sequence.
-
 ## How it works — the Evaluation, the Install, Management, the Report | AI Native
 URL: https://ainative.ai/how-it-works.html
 
@@ -237,12 +232,12 @@ How it works
 
  2 
 ### The Install
- First the tools, then the agents. We set up the tools you keep and bring the ones you are missing — website chat, a scheduling calendar, a bookkeeping system, a customer-service inbox — each one ready for an agent to work inside. Then we design the workforce for your company and for each person in it, configure every agent on your own data — your pricing, your policies, your voice — and train your staff to run all of it. Training is not a step after the Install; it is inside it.
+ First the tools, then the agents. We set up the tools you keep and bring the ones you are missing — website chat, a scheduling calendar, a bookkeeping system, a customer-service inbox — each one ready for an agent to work inside. Then we design the workforce for your company and for each person in it, configure every agent on your own data — your pricing, your policies, your voice — and train your staff to run all of it. Training is not a step after the Install; it is inside it. So are the checkpoints: what each agent may do on its own and what waits for a person — a refund, a quote above a threshold, a booking outside hours — are written into the plan and built into the workforce.
  The rule: nothing is installed until your staff can run it. Before an agent speaks to a customer, you approve its first hundred replies.
 
  3 
 ### Management
- We run the workforce, update its configuration as your business changes, and support adoption — the second month is where most software fails and where our work starts. When something breaks, you call us. When an agent is unsure, it hands to a person and tells us.
+ We run the workforce, update its configuration as your business changes, and support adoption — the second month is where most software fails and where our work starts. When something breaks, you call us. When an agent is unsure, it hands to a person and tells us. And every conversation every agent has is on the record for you — readable, searchable, live in the dashboard.
  One number. One firm accountable for the whole workforce, not twelve vendors accountable for a login each.
 
  4 
@@ -300,8 +295,8 @@ How it works
 
  The owner, and the people who carry the manual work: the office manager, the controller or bookkeeper, whoever runs sales and service. An hour of their time in the Evaluation is what saves them the rest of the year.
 
-#### Will it embarrass us in front of customers?
- Every agent says what it is in its first sentence, answers only from your data, books in under a minute, and hands to a person the moment someone asks. Before it speaks to a single customer, you approve its first hundred replies.
+#### Can we see everything an agent says to a customer?
+ Yes. Every conversation an agent has — every call, chat, and email — is on the record for you: readable, searchable, summarized in the Report, and live in the dashboard. You see what it said, what it did, and where it handed to a person. Before it speaks to a single customer, you approve its first hundred replies.
 
 #### Will my people use it?
  Training is inside the Install. Nothing goes live until your staff can run it, and the first thing every person gets is a Chief of Staff agent — so the first thing the workforce does is give them their day back.
@@ -370,7 +365,7 @@ Your AI workforce
 
 - Every agent says what it is in its first sentence, in chat and by voice.
 
-- It hands to a person when asked, when it is unsure, and on any topic you list.
+- It hands to a person when asked, when it is unsure, on any topic you list, and at every checkpoint you set — a refund, a quote above a threshold, a booking outside hours.
 
 - You approve its first hundred replies before it speaks to a customer.
 
@@ -378,9 +373,22 @@ Your AI workforce
 
 - Your people are trained to lead their agents; nothing goes live until they can.
 
-- You see what it did, in the Report.
+- You see everything it said and did — every conversation is on the record, summarized in the Report and live in the dashboard.
 
  How our agents identify themselves · Try ours 
+
+### You stay in control.
+
+ Agents take the routine. You keep the decisions, the visibility, and the data.
+
+#### Checkpoints, where you want them
+ Every agent works inside limits you set: what it may answer on its own, what it may do on its own, and what waits for a person — a refund, a quote above a threshold, a booking outside hours. Those checkpoints are written into the plan and built into the workforce. At each one, the agent hands to a person.
+
+#### Every conversation, on the record
+ Every call, chat, and email an agent has is logged for you — readable, searchable, summarized in the Report, and live in the dashboard. You see what it said, what it did, and where it handed off.
+
+#### Your data stays home
+ Agents work inside the systems you already use, and that is where your data lives and stays. Nothing is moved to a new place and nothing leaves your business. What stays where is written down before anything is installed.
 
 ### Map your workforce.
  The Evaluation goes through your departments one at a time and shows you which work an agent takes, what it is tied into, and who checks it.
@@ -398,16 +406,17 @@ Your business
 
  Pick your business and we will show you where your day goes and what we install.
 
- Law firm Accounting or CPA firm Bookkeeping firm Marketing agency Design agency PR firm IT provider or MSP Staffing agency Recruiter Consultancy Commercial contractor Commercial cleaning Commercial landscaping Freight or logistics broker Architecture firm Engineering firm Property management Security services Training company Event production Printing company Manufacturer Machine shop Wholesaler Distributor Industrial supplier Packaging company Food producer Beverage producer Building materials Parts supplier Software company Hardware vendor Medical device supplier Restaurant supplier Agricultural supplier Contract manufacturer Signage company Dental practice Orthodontist Medical practice Urgent care Chiropractor Physical therapy Veterinary clinic HVAC Plumbing Electrical Roofing Pool service Landscaping Pest control House cleaning Salon Barbershop Spa or med spa Gym or fitness studio Yoga or pilates studio Auto repair Auto detailing Real estate brokerage Mortgage broker Insurance agency Tutoring Childcare Home care Moving company Restaurant Hotel or short-term rentals E-commerce brand DTC brand Online store Retail store Boutique Specialty store Subscription box Maker or craft business Furniture store Jewelry Apparel brand Supplements Pet products Franchise retail Garden center Wine and spirits 
+ Dental practice Orthodontist Medical practice Urgent care Chiropractor Physical therapy Veterinary clinic HVAC Plumbing Electrical Roofing Pool service Landscaping Pest control House cleaning Salon Barbershop Spa or med spa Gym or fitness studio Yoga or pilates studio Auto repair Auto detailing Real estate brokerage Mortgage broker Insurance agency Tutoring Childcare Home care Moving company Restaurant Hotel or short-term rentals E-commerce brand DTC brand Online store Retail store Boutique Specialty store Subscription box Maker or craft business Furniture store Jewelry Apparel brand Supplements Pet products Franchise retail Garden center Wine and spirits Law firm Accounting or CPA firm Bookkeeping firm Marketing agency Design agency PR firm IT provider or MSP Staffing agency Recruiter Consultancy Commercial contractor Commercial cleaning Commercial landscaping Freight or logistics broker Architecture firm Engineering firm Property management Security services Training company Event production Printing company Manufacturer Machine shop Wholesaler Distributor Industrial supplier Packaging company Food producer Beverage producer Building materials Parts supplier Software company Hardware vendor Medical device supplier Restaurant supplier Agricultural supplier Contract manufacturer Signage company 
 
-#### We serve other businesses B2B 
- Law firm Accounting or CPA firm Bookkeeping firm Marketing agency Design agency PR firm IT provider or MSP Staffing agency Recruiter Consultancy Commercial contractor Commercial cleaning Commercial landscaping Freight or logistics broker Architecture firm Engineering firm Property management Security services Training company Event production Printing company 
-#### We supply other businesses B2B 
- Manufacturer Machine shop Wholesaler Distributor Industrial supplier Packaging company Food producer Beverage producer Building materials Parts supplier Software company Hardware vendor Medical device supplier Restaurant supplier Agricultural supplier Contract manufacturer Signage company 
 #### We serve people in person B2C 
  Dental practice Orthodontist Medical practice Urgent care Chiropractor Physical therapy Veterinary clinic HVAC Plumbing Electrical Roofing Pool service Landscaping Pest control House cleaning Salon Barbershop Spa or med spa Gym or fitness studio Yoga or pilates studio Auto repair Auto detailing Real estate brokerage Mortgage broker Insurance agency Tutoring Childcare Home care Moving company Restaurant Hotel or short-term rentals 
 #### We sell products to people B2C 
  E-commerce brand DTC brand Online store Retail store Boutique Specialty store Subscription box Maker or craft business Furniture store Jewelry Apparel brand Supplements Pet products Franchise retail Garden center Wine and spirits 
+#### We serve other businesses B2B 
+ Law firm Accounting or CPA firm Bookkeeping firm Marketing agency Design agency PR firm IT provider or MSP Staffing agency Recruiter Consultancy Commercial contractor Commercial cleaning Commercial landscaping Freight or logistics broker Architecture firm Engineering firm Property management Security services Training company Event production Printing company 
+#### We supply other businesses B2B 
+ Manufacturer Machine shop Wholesaler Distributor Industrial supplier Packaging company Food producer Beverage producer Building materials Parts supplier Software company Hardware vendor Medical device supplier Restaurant supplier Agricultural supplier Contract manufacturer Signage company 
+
  Not on the list? Every business with a phone, an inbox, and books has manual work. Book the Evaluation and we will map yours.
 
 ### Or pick the sentence you would say.
@@ -498,12 +507,6 @@ Your business · We serve people in person B2C
  All the straight answers 
 
 ### What the Report shows.
- Hours per week on manual work — before the Install and after 
-- 
-- 
-- 
-- 
-- 45 4 Phones 20 3 Booking 15 2 Estimates 14 3 Books Manual AI Native design targets until measured 
 
 ### Is your business more than one kind?
  Many are — a practice that also sells products, a supplier that also installs. The Evaluation maps all of it. In the language of business categories, this page is B2C service; the others are here.
@@ -588,12 +591,6 @@ Your business · We sell products to people B2C
  All the straight answers 
 
 ### What the Report shows.
- Hours per week on manual work — before the Install and after 
-- 
-- 
-- 
-- 
-- 48 6 Support 30 8 Marketing 16 3 Inventory 14 3 Books Manual AI Native design targets until measured 
 
 ### Is your business more than one kind?
  Many are — a practice that also sells products, a supplier that also installs. The Evaluation maps all of it. In the language of business categories, this page is B2C product; the others are here.
@@ -676,12 +673,6 @@ Your business · We serve other businesses B2B
  All the straight answers 
 
 ### What the Report shows.
- Hours per week on manual work — before the Install and after 
-- 
-- 
-- 
-- 
-- 36 8 Sales 18 3 Billing 14 2 Updates 12 2 Collections Manual AI Native design targets until measured 
 
 ### Is your business more than one kind?
  Many are — a practice that also sells products, a supplier that also installs. The Evaluation maps all of it. In the language of business categories, this page is B2B service; the others are here.
@@ -766,12 +757,6 @@ Your business · We supply other businesses B2B
  All the straight answers 
 
 ### What the Report shows.
- Hours per week on manual work — before the Install and after 
-- 
-- 
-- 
-- 
-- 40 6 Orders 22 4 Quotes 30 5 Service 20 4 Books Manual AI Native design targets until measured 
 
 ### Is your business more than one kind?
  Many are — a practice that also sells products, a supplier that also installs. The Evaluation maps all of it. In the language of business categories, this page is B2B product; the others are here.
@@ -799,18 +784,13 @@ The Report
 
  Calls answered 1,240 +18% vs last month Leads answered in minutes 312 +22% vs last month Meetings booked 41 +9% vs last month Hours returned 418.5 target 
 
- Hours per week on manual work — before the Install and after 
-- 
-- 
-- 
-- 
-- 38 9 Sales 52 6 Service 30 4 Books 26 11 Ops Manual AI Native design targets until measured 
-
 ### How it is counted.
 
 - Work completed — calls answered, leads answered, quotes sent, invoices out, orders entered: counted from your systems, not estimated.
 
 - Hours returned — the time the manual work took before, measured in the Evaluation, against the time it takes your people now; and what those hours went to.
+
+- Every conversation — every call, chat, and email an agent had is on the record: readable, searchable, and summarized here, with every hand-off to a person marked.
 
 - Performance — the business measures you already watch: bookings, pipeline, days to close, collections, reviews.
  Every figure on this page is a design target for illustration. Yours will be measured or labelled.
@@ -832,8 +812,11 @@ URL: https://ainative.ai/answers.html
 Straight answers 
 ## The questions owners ask before they sign. Answered in full sentences.
 
-#### Will it embarrass us in front of customers?
- Every agent says what it is in its first sentence, answers only from your data, books in under a minute, and hands to a person the moment someone asks. Before it speaks to a single customer, you approve its first hundred replies.
+#### Can we see everything an agent says to a customer?
+ Yes. Every conversation an agent has — every call, chat, and email — is on the record for you: readable, searchable, summarized in the Report, and live in the dashboard. You see what it said, what it did, and where it handed to a person. Before it speaks to a single customer, you approve its first hundred replies.
+
+#### Can an agent do something we didn't authorize?
+ No. Every agent works inside limits you set: what it may answer on its own, what it may do on its own, and what waits for a person — a refund, a quote above a threshold, a booking outside hours. Those checkpoints are written into the plan and built into the workforce, and at each one the agent hands to a person.
 
 #### Will my people use it?
  Training is inside the Install. Nothing goes live until your staff can run it, and the first thing every person gets is a Chief of Staff agent — so the first thing the workforce does is give them their day back.
@@ -851,7 +834,7 @@ Straight answers
  No. Agents take the routine; people do the work only people can do. The business grows without hiring.
 
 #### What about our data?
- Agents work inside the systems you already use and are tied into them under the Install agreement. What stays where is written down before anything is installed.
+ It stays in your systems. Agents work inside the software you already use — the CRM, the books, the phone system, the store — and that is where your data lives and stays. Nothing is moved to a new place and nothing leaves your business. What stays where is written down before anything is installed.
 
 #### We already tried a chatbot. We use ChatGPT.
  Those are tools and bolt-ons. This is a workforce for the whole company, with a firm accountable for it.
@@ -1009,16 +992,6 @@ URL: https://ainative.ai/evaluation.html
 Book the Evaluation 
 ## An hour with your leadership, led by someone who has run a business like yours. The map, the number, and the timeline, in writing.
  Tell us who you are and where the day goes. A person replies within one business day to set the time.
-
- Your name 
- Company 
- Work email 
- Phone optional 
- What kind of business Choose one We serve people in person (B2C) We sell products to people (B2C) We serve other businesses (B2B) We supply other businesses (B2B) More than one of these 
- People in the company Choose one Just me 2–10 11–50 51–200 201–500 
- Where does the day go? the manual work you would hand off first 
- Good times to talk optional 
- Book the Evaluation A person replies within one business day. No newsletter, no drip sequence.
 
  Or
  Pick a time now Email sales@ainative.ai 

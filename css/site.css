@@ -301,6 +301,18 @@ p{margin:0 0 1em}
 .results-list dt{color:var(--an-text-secondary)}
 .results-list dd{margin:0;font-family:var(--an-font-mono);font-weight:500;font-variant-numeric:tabular-nums}
 
+/* hero workchart */
+.hero-chart{margin:0}
+.hero-chart .workchart{width:100%;height:auto;display:block;font-family:var(--an-font-sans)}
+.hero-chart .is-narrow{display:none}
+@media (max-width:599px){.hero-chart .is-wide{display:none}.hero-chart .is-narrow{display:block}}
+.hero-chart figcaption{margin-top:12px;font-size:.8125rem;color:var(--an-text-tertiary);max-width:36em}
+.wc-node{opacity:0;transform:translateY(6px);animation:wc-in 420ms var(--an-ease-enter,cubic-bezier(.2,0,0,1)) forwards;animation-delay:var(--d,0ms)}
+.wc-line{opacity:0;animation:wc-fade 300ms ease-out forwards;animation-delay:var(--d,0ms)}
+@keyframes wc-in{to{opacity:1;transform:none}}
+@keyframes wc-fade{to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.wc-node,.wc-line{animation:none;opacity:1;transform:none}}
+
 /* page hero */
 .page-hero{padding:80px 0 40px}
 @media (max-width:899px){.page-hero{padding:48px 0 24px}}
@@ -362,10 +374,9 @@ p{margin:0 0 1em}
 /* operators */
 .operators{display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:center}
 @media (max-width:899px){.operators{grid-template-columns:1fr;gap:32px}}
-.operators-photo{margin:0;aspect-ratio:3/2;border-radius:12px;background:var(--an-sunken);overflow:hidden}
+.operators-photo{margin:0;aspect-ratio:4013/2222;border-radius:12px;background:var(--an-sunken);overflow:hidden}
 .operators-photo img{width:100%;height:100%;object-fit:cover;display:block}
-.operators-photo-wide{aspect-ratio:3/1;margin-bottom:40px}
-@media (max-width:899px){.operators-photo-wide{aspect-ratio:3/2}}
+.operators-photo-wide{aspect-ratio:4013/2222;margin-bottom:40px;max-width:960px}
 .founders{margin-top:24px}
 .founder h3{font-size:1.125rem}
 .founder-role{color:var(--an-text-tertiary);font-size:.875rem;margin-bottom:6px}
@@ -493,6 +504,8 @@ p{margin:0 0 1em}
 .finder-group h3{font-size:1.0625rem;margin-bottom:10px}
 .finder-group h3 a{color:var(--an-text)}
 .finder-empty{margin-top:16px;color:var(--an-text-secondary)}
+.finder-suggest{margin:14px 0 0;font-weight:500}
+.finder-suggest a{text-decoration:underline;text-underline-offset:.15em}
 .kind-cards{margin-top:8px}
 .kind-card h3{font-size:1.125rem}
 .kind-card .owner-line{font-size:1.0625rem;color:var(--an-text);flex:0}

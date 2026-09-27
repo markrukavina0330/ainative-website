@@ -15,8 +15,7 @@
     toggle.addEventListener("click", function (e) { e.preventDefault(); setMenu(toggle.getAttribute("aria-expanded") !== "true"); });
     nav.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", function () { if (root.getAttribute("data-menu-open") === "true") setMenu(false); }); });
     doc.addEventListener("keydown", function (e) { if (e.key === "Escape" && root.getAttribute("data-menu-open") === "true") { setMenu(false); toggle.focus(); } });
-    var mq = window.matchMedia("(min-width: 1024px)"); var onChange = function (m) { if (m.matches && root.getAttribute("data-menu-open") === "true") setMenu(false); };
-    if (mq.addEventListener) mq.addEventListener("change", onChange); else if (mq.addListener) mq.addListener(onChange);
+    try { var mq = window.matchMedia("(min-width: 1024px)"); var onChange = function (m) { if (m.matches && root.getAttribute("data-menu-open") === "true") setMenu(false); }; if (mq.addEventListener) mq.addEventListener("change", onChange); else if (mq.addListener) mq.addListener(onChange); } catch (e) {}
   }
   // sub-menu (keyboard and touch)
   doc.querySelectorAll(".nav-sub-toggle").forEach(function (b) {
@@ -33,6 +32,32 @@
     if (cur === "auto") { root.setAttribute("data-theme", "auto"); try { localStorage.removeItem("an-theme"); } catch (e) {} }
     else { root.setAttribute("data-theme", cur); try { localStorage.setItem("an-theme", cur); } catch (e) {} }
     if (tl) tl.textContent = label(cur);
+  });
+  // the business finder — every industry, names and synonyms; Enter opens the best match
+  doc.querySelectorAll("[data-finder]").forEach(function (box) {
+    var input = box.querySelector(".finder-input"), chips = box.querySelectorAll(".finder-results .chip"), groups = box.querySelectorAll(".finder-group"), empty = box.querySelector(".finder-empty"), suggest = box.querySelector(".finder-suggest");
+    var showAll = !box.querySelector("[data-extra]");
+    function norm(s) { return (s || "").toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim(); }
+    function score(c, q) {
+      var name = norm(c.textContent), kw = norm(c.getAttribute("data-kw")), kind = norm(c.getAttribute("data-kind"));
+      if (!q) return 0;
+      if (name.indexOf(q) === 0) return 4; if (name.indexOf(q) !== -1) return 3; if ((" " + kw + " ").indexOf(q) !== -1) return 2;
+      var words = q.split(" "); var hit = words.every(function (w) { return name.indexOf(w) !== -1 || kw.indexOf(w) !== -1 || kind.indexOf(w) !== -1; }); return hit ? 1 : 0;
+    }
+    function apply() {
+      var q = norm(input.value), best = null, bestScore = 0, any = false;
+      chips.forEach(function (c) {
+        var s = score(c, q); var show = q ? s > 0 : (showAll || !c.hasAttribute("data-extra"));
+        c.hidden = !show; if (show) any = true; if (s > bestScore) { bestScore = s; best = c; }
+      });
+      groups.forEach(function (g) { g.hidden = !!q; });
+      if (empty) empty.hidden = !q || any;
+      if (suggest) { if (q && best) { suggest.hidden = false; suggest.innerHTML = 'Sounds like <a href="' + best.getAttribute("href") + '">' + best.getAttribute("data-kind") + '</a> — press Enter to open it.'; } else suggest.hidden = true; }
+      box.setAttribute("data-best", best ? best.getAttribute("href") : "");
+    }
+    input.addEventListener("input", apply);
+    input.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); var href = box.getAttribute("data-best"); if (href) window.location.href = href; } });
+    input.addEventListener("search", apply);
   });
   // evaluation form — delivered as an email (Web3Forms) using js/config.js; falls back to the visitor's email app
   var cfg = window.AI_NATIVE_SITE || {};

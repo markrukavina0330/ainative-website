@@ -15,12 +15,12 @@ This folder is the complete static site. Upload it as-is to the root of any stat
 | AGENT_MODE / AGENT_ENDPOINT | demo / not set | "demo" answers from the site's own content in the browser; "live" POSTs to the endpoint — see README-AGENT.md |
 | REPLY_WITHIN | one business day | Shown beside the form |
 
-Still to supply: the Web3Forms access key (README-LEADS.md, two minutes); the photograph of the senior leadership team in a client workplace (replace `assets/people/founders-workplace.jpg`, currently marked FPO, keeping the file name); counsel's review of privacy.html, terms.html, and the data answer; the agent backend.
+Still to supply: the Web3Forms access key (README-LEADS.md, two minutes); counsel's review of privacy.html, terms.html, and the data answer; the agent backend.
 
 ## Structure
 - `index.html` and the pages in `sitemap.xml`; `businesses/` holds the four category pages.
 - `css/site.css` — brand tokens + site + agent styles; `js/site.js` — menu, theme, form; `js/agent.js` — the AI Native service agent front end.
-- `assets/` — logotype and badge SVG, favicons, touch icons, Open Graph image, the leadership-team photograph (FPO).
+- `assets/` — logotype and badge SVG, favicons, touch icons, share images, the senior leadership team photograph (three sizes, 4013:2222).
 - `entity.jsonld` — the canonical organisation description (also embedded in index.html).
 
 ## Fonts
@@ -28,3 +28,6 @@ Google Fonts (Atkinson Hyperlegible Next, Atkinson Hyperlegible Mono, Source Ser
 
 ## Responsive behaviour
 Breakpoints 600 / 900 / 1024 / 1264 px. The header is sticky with "Book the Evaluation" on every page at every width (shortens to "Book" under 1024 px). Dark mode is native; light follows the visitor's system preference; the footer toggle overrides it. The agent is a floating launcher on every page, a full-screen sheet on phones, and is docked inline on the home page.
+
+## Note on the site's source
+From v1.11 the HTML files in this folder are the source of truth (the earlier Python generator is retired). Edit the HTML directly; `js/config.js` still holds every setting.
