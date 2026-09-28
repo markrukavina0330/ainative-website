@@ -4,7 +4,7 @@ window.AI_NATIVE_SITE = {
   "formAccessKey": "",
   "formEmail": "mark@ainative.ai",
   "calendar": "https://calendly.com/mark-ainative/ai-native-evaluation",
-  "email": "sales@ainative.ai",
+  "email": "contact@ainative.ai",
   "phone": "",
   "agentMode": "demo",
   "agentEndpoint": ""

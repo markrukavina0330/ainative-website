@@ -216,7 +216,9 @@ URL: https://ainative.ai/index.html
  All the answers · Ask our agent the one that is not here 
 
 ### Book the Evaluation.
- We meet with you and your leadership, map every department, and show you where an agent workforce fits. You leave with the number and the timeline in writing.
+ Our Front Desk agent asks a few questions, shows you where an AI workforce fits, and puts the Evaluation on the calendar while you are here. A senior leader who has run a business like yours takes it from there.
+
+ Talk to the Front Desk agent It is an AI agent, powered by AI Native — the same kind we install for you. Want a person? Type person .
 
 ## How it works — the Evaluation, the Install, Management, the Report | AI Native
 URL: https://ainative.ai/how-it-works.html
@@ -396,7 +398,7 @@ Your AI workforce
  Book the Evaluation See how the Install works
 
 ## Find your business — AI agents for dental practices, HVAC, law firms, distributors, online stores and more | AI Native
-URL: https://ainative.ai/businesses/index.html
+URL: https://ainative.ai/businesses/
 
 Your business 
 ## Every small and medium-sized business is one of four kinds. Find yours.
@@ -984,21 +986,25 @@ Our agents
 
 ### Questions or concerns
 
- If an agent that says “powered by AI Native” did not behave this way, tell us at sales@ainative.ai . A person reads every message.
+ If an agent that says “powered by AI Native” did not behave this way, tell us at contact@ainative.ai . A person reads every message.
 
-## Book the Evaluation — one hour with a senior leader who has run a business like yours | AI Native
+## Book the Evaluation — talk to the AI Native Front Desk agent | AI Native
 URL: https://ainative.ai/evaluation.html
 
 Book the Evaluation 
-## An hour with your leadership, led by someone who has run a business like yours. The map, the number, and the timeline, in writing.
- Tell us who you are and where the day goes. A person replies within one business day to set the time.
+## Tell our agent about your business. It books the Evaluation.
+ The AI Native Front Desk agent asks a few questions, shows you where an AI workforce fits, and puts the Evaluation on the calendar while you are here. A senior leader who has run a business like yours takes it from there.
 
- Or
- Pick a time now Email evaluation@ainative.ai 
 
-### What happens next
+ The Front Desk agent is an AI agent, powered by AI Native — the same kind of agent we install for you. Want a person? Type person and it hands you off.
 
-- We reply. A person — not a form autoresponder — confirms a time and asks who should be in the room.
+### How it works
+
+- Tell the agent about your business. Paste your website, or describe what you do in a line. It asks what it needs — a few questions, not a form.
+
+- See where the workforce fits. It shows you, in your own terms, what an AI workforce would take off your day.
+
+- Pick a time in the chat. The agent puts the Evaluation on the calendar right there, and the invitation arrives in your inbox.
 
 - The Evaluation. A senior leader who has run a business like yours goes through your departments one at a time, maps the work done by hand today, and shows you what an agent takes, what it is tied into, and who checks it.
 
@@ -1014,8 +1020,8 @@ Book the Evaluation
 
 ### What we will not do
 
- Add you to a newsletter, run a drip sequence, or hand your details to anyone else. We are a firm; we will call you back.
+ Add you to a newsletter, run a drip sequence, or hand your details to anyone else. The agent books the time; a senior leader takes the meeting.
 
-### Prefer to talk it through first?
+### The AI Native way
 
- Ask our agent
+ Our own Front Desk agent books our own Evaluations. It is the same kind of agent we install in your business — which is why we let it answer our front door.

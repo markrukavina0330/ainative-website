@@ -437,6 +437,8 @@ p{margin:0 0 1em}
 .book-panel{background:var(--an-text);color:var(--an-bg);border-radius:16px;padding:48px 48px 64px;display:grid;grid-template-columns:5fr 7fr;gap:48px}
 @media (max-width:899px){.book-panel{grid-template-columns:1fr;padding:32px 24px 48px}}
 .book-panel h2{color:inherit}.book-panel p{color:inherit;opacity:.85}
+.book-actions{display:flex;flex-direction:column;gap:14px;justify-content:center}
+.book-note{font-size:.875rem;margin:0}
 
 /* forms */
 .eval-form .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
@@ -456,6 +458,11 @@ p{margin:0 0 1em}
 .form-status{margin-top:12px;font-weight:500;min-height:1.5em}
 .form-status.is-error{color:var(--an-error)}
 .eval-grid{display:grid;grid-template-columns:7fr 5fr;gap:48px;align-items:start}
+.front-desk{min-height:560px;border:1px solid var(--an-border);border-radius:16px;background:var(--an-surface);overflow:hidden}
+.front-desk iframe{width:100%;height:100%;min-height:560px;border:0;display:block}
+.front-desk-fallback{padding:28px}
+.front-desk-fallback p{margin:0;color:var(--an-text-secondary)}
+.front-desk-note{margin-top:12px;font-size:.875rem;color:var(--an-text-tertiary)}
 @media (max-width:899px){.eval-grid{grid-template-columns:1fr}}
 .eval-aside{position:sticky;top:104px;padding:28px;border:1px solid var(--an-border);border-radius:16px;background:var(--an-surface)}
 .eval-aside h2{font-size:1.125rem;margin:0 0 10px}
@@ -586,3 +593,6 @@ body[data-agent-open="true"] .agent-launcher{display:none}
 [data-ainative-inline]{min-height:560px}
 @media (max-width:599px){[data-ainative-inline]{min-height:80vh}}
 .alt-paths+.eval-form{margin-top:40px}
+
+/* Front Desk agent on the Evaluation page (deploy layer): once the agent has rendered inside the framed container, its own panel is the frame */
+.front-desk:has(> #ainative-front-desk){border:0;background:none;border-radius:0;overflow:visible}

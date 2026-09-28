@@ -59,6 +59,9 @@
     input.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); var href = box.getAttribute("data-best"); if (href) window.location.href = href; } });
     input.addEventListener("search", apply);
   });
+  // the Front Desk agent: show the written fallback only if the embed has not appeared after a few seconds
+  var fd = doc.querySelector("[data-front-desk]");
+  if (fd) setTimeout(function () { var fb = fd.querySelector(".front-desk-fallback"); var live = Array.prototype.some.call(fd.children, function (el) { return !el.classList.contains("front-desk-fallback"); }); if (fb && !live) fb.hidden = false; }, 8000);
   // evaluation form — delivered as an email (Web3Forms) using js/config.js; falls back to the visitor's email app
   var cfg = window.AI_NATIVE_SITE || {};
   doc.querySelectorAll(".eval-form").forEach(function (form) {
