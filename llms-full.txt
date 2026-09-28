@@ -9,7 +9,7 @@ URL: https://ainative.ai/index.html
  A complete AI workforce for every worker in every department — designed, installed, trained, and managed for you.
 
  Book the Evaluation See how the Install works 
- Or ask our agent — it's the same one we install. 
+ Or ask our agent — it's the same kind we install. 
 
 ### Find your business.
 
@@ -55,7 +55,7 @@ URL: https://ainative.ai/index.html
 
 ### Talk to the agent we use ourselves.
 
- This is the AI Native service agent — the same Customer Service agent we install for clients, working for AI Native. It answers questions about the firm, books the Evaluation, and says what it is in its first sentence.
+ This is the AI Native Front Desk agent — the same kind of agent we install for clients, working for AI Native. It answers questions about the firm, books the Evaluation, and says what it is in its first sentence.
 
 - Ask it what we would install for your kind of business.
 
@@ -994,7 +994,7 @@ Book the Evaluation
  Tell us who you are and where the day goes. A person replies within one business day to set the time.
 
  Or
- Pick a time now Email sales@ainative.ai 
+ Pick a time now Email evaluation@ainative.ai 
 
 ### What happens next
 

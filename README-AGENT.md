@@ -1,28 +1,18 @@
-# The AI Native service agent — front-end contract for the backend
+# The AI Native Front Desk agent on this site
 
-`js/agent.js` renders the launcher, the panel (floating; full-screen under 600 px), and the inline showcase on the home page (`#agent-inline`). One conversation is shared by both and persists for the session in `sessionStorage`.
+The agent is the Front Desk application at https://agent.ainative.ai, which has its own repository. This site
+carries three things and nothing else:
 
-## Switching to the live agent
-Set `AGENT_MODE = "live"` and `AGENT_ENDPOINT = "https://…/agent"` in `build_site.py` (or edit `window.AI_NATIVE_SITE` in each page) and regenerate.
+1. **One script line** at the end of every page:
+   `<script src="https://agent.ainative.ai/widget.js" defer></script>`
+2. **`<div data-ainative-inline></div>`** where the agent sits inside a page: the home page's "Our own agent"
+   section and the top of the Evaluation page. Every other page shows the round launcher at the bottom right.
+3. **`data-ainative-open`** on any link or button that opens the agent: the header's "Book the Evaluation" on every
+   page (it keeps its link to evaluation.html, so it still works if the script does not load) and the "Ask our agent"
+   links.
 
-## Request (POST, JSON)
-```json
-{ "session_id": "s…", "message": "What would you install at an HVAC company?",
-  "page": { "url": "https://ainative.ai/", "title": "AI Native™ — …" },
-  "history": [ { "who": "user", "text": "…" }, { "who": "agent", "text": "…" } ] }
-```
+The agent's words, colours, privacy line, and contact address come from the application (`/api/settings`), so
+changing them needs no change here. Three rules at the end of `css/site.css` hold the inline panel's space so nothing
+on the page moves when the script arrives. If the agent is unavailable, its panel shows evaluation@ainative.ai instead.
 
-## Response (JSON) — an ordered list of messages
-```json
-{ "messages": [
-  { "type": "text",  "text": "For a business like that we usually install …" },
-  { "type": "chips", "options": ["Book the Evaluation", "How does handoff work?"] },
-  { "type": "card",  "kind": "link",    "title": "B2C service", "text": "Where the day goes …", "href": "businesses/b2c-service.html", "cta": "See the map" },
-  { "type": "card",  "kind": "book",    "title": "Book the Evaluation", "text": "Three fields." },
-  { "type": "card",  "kind": "handoff", "title": "A person, not the agent", "text": "Here are the ways to reach a person." }
-] }
-```
-- `text` renders as an agent bubble; `chips` are one-tap replies that send their label; `link` cards open a page; `book` renders the three-field booking form (posts to FORM_ENDPOINT or opens email to FORM_EMAIL); `handoff` renders the call / pick-a-time / email actions from the site configuration.
-- The backend owns the persona: the first sentence of every new session must be the disclosure ("I'm an AI agent, powered by AI Native"); three sentences a turn; one question; hand off on "person", on uncertainty, and on listed topics. The front end shows the disclosure line in its footer regardless.
-- Streaming is not required; if added later, send the final message list at the end of the stream.
-- Errors (non-2xx) make the front end show a handoff card.
+The Calendly link and the form stay on the Evaluation page for two weeks after launch, then come off.
