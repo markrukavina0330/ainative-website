@@ -581,3 +581,8 @@ body[data-agent-open="true"] .agent-launcher{display:none}
 .agent-composer textarea{flex:1;resize:none;font:inherit;font-size:.9375rem;line-height:1.4;padding:10px 12px;border-radius:10px;border:1px solid var(--an-border-strong);background:var(--an-surface);color:var(--an-text);max-height:120px}
 .agent-send{width:42px;height:42px;border-radius:10px;border:0;background:var(--an-accent);color:var(--an-on-accent);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto}
 .agent-foot{margin:0;padding:6px 16px 12px;font-size:.75rem;color:var(--an-text-tertiary);background:var(--an-bg)}
+
+/* Front Desk agent (launch swap): hold the inline panel's space until its script arrives, so nothing below it moves */
+[data-ainative-inline]{min-height:560px}
+@media (max-width:599px){[data-ainative-inline]{min-height:80vh}}
+.alt-paths+.eval-form{margin-top:40px}
