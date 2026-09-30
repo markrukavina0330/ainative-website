@@ -458,9 +458,7 @@ p{margin:0 0 1em}
 .form-status{margin-top:12px;font-weight:500;min-height:1.5em}
 .form-status.is-error{color:var(--an-error)}
 .eval-grid{display:grid;grid-template-columns:7fr 5fr;gap:40px;align-items:start}
-.front-desk{min-height:560px;border:1px solid var(--an-border);border-radius:16px;background:var(--an-surface);overflow:hidden;font-size:1rem;line-height:1.5}
-.front-desk textarea,.front-desk input,.front-desk button{font-size:1rem}
-.front-desk [class*="bubble"],.front-desk [class*="message"],.front-desk [class*="msg"]{font-size:1rem;line-height:1.5}
+.front-desk{min-height:560px;border:1px solid var(--an-border);border-radius:16px;background:var(--an-surface);overflow:hidden}
 .front-desk iframe{width:100%;height:100%;min-height:560px;border:0;display:block}
 .front-desk-fallback{padding:28px}
 .front-desk-fallback p{margin:0;color:var(--an-text-secondary)}
@@ -561,15 +559,15 @@ body[data-agent-open="true"] .agent-launcher{display:none}
 .agent-avatar{display:inline-block;width:22px;color:var(--an-text)}
 .agent-avatar svg{width:22px;height:auto}
 .agent-id{display:flex;flex-direction:column;line-height:1.2;flex:1;min-width:0}
-.agent-id strong{font-size:1rem}
-.agent-id span{font-size:.8125rem;color:var(--an-text-secondary)}
+.agent-id strong{font-size:.9375rem}
+.agent-id span{font-size:.75rem;color:var(--an-text-secondary)}
 .agent-head-actions{display:flex;gap:6px;align-items:center}
 .agent-reset{background:none;border:1px solid var(--an-border);border-radius:6px;padding:4px 8px;font:inherit;font-size:.75rem;color:var(--an-text-secondary);cursor:pointer}
 .agent-close{background:none;border:0;font-size:1.5rem;line-height:1;color:var(--an-text-secondary);cursor:pointer;padding:4px 6px}
 .agent-log{flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:10px;scroll-behavior:smooth}
 .agent-msg{display:flex;flex-direction:column;align-items:flex-start;max-width:88%}
 .agent-msg.is-user{align-self:flex-end;align-items:flex-end}
-.agent-bubble{padding:11px 14px;border-radius:12px;background:var(--an-sunken);font-size:1rem;line-height:1.5}
+.agent-bubble{padding:10px 14px;border-radius:12px;background:var(--an-sunken);font-size:.9375rem;line-height:1.5}
 .is-user .agent-bubble{background:var(--an-accent);color:var(--an-on-accent)}
 .agent-typing .agent-bubble{display:flex;gap:5px;align-items:center;padding:12px 14px}
 .agent-typing span{width:6px;height:6px;border-radius:50%;background:var(--an-text-secondary);animation:agent-dot 600ms infinite ease-in-out}
@@ -577,19 +575,19 @@ body[data-agent-open="true"] .agent-launcher{display:none}
 @keyframes agent-dot{0%,80%,100%{opacity:.3}40%{opacity:1}}
 @media (prefers-reduced-motion:reduce){.agent-typing span{animation:none;opacity:.7}}
 .agent-chips{display:flex;flex-wrap:wrap;gap:6px}
-.agent-chip{background:none;border:1px solid var(--an-border-strong);border-radius:999px;padding:7px 13px;font:inherit;font-size:.875rem;color:var(--an-text);cursor:pointer}
+.agent-chip{background:none;border:1px solid var(--an-border-strong);border-radius:999px;padding:6px 12px;font:inherit;font-size:.8125rem;color:var(--an-text);cursor:pointer}
 .agent-chip:hover{background:var(--an-sunken)}
 .agent-card{width:100%;border:1px solid var(--an-border);border-radius:12px;padding:14px;background:var(--an-bg)}
 .agent-card strong{display:block;margin-bottom:4px}
-.agent-card p{font-size:.9375rem;color:var(--an-text-secondary);margin:0 0 10px}
+.agent-card p{font-size:.875rem;color:var(--an-text-secondary);margin:0 0 10px}
 .agent-card-actions{display:flex;flex-wrap:wrap;gap:8px}
 .agent-book{display:grid;gap:8px}
-.agent-book input{font:inherit;font-size:1rem;padding:8px 10px;border-radius:8px;border:1px solid var(--an-border-strong);background:var(--an-surface);color:var(--an-text)}
+.agent-book input{font:inherit;font-size:.9375rem;padding:8px 10px;border-radius:8px;border:1px solid var(--an-border-strong);background:var(--an-surface);color:var(--an-text)}
 .agent-book-status{font-size:.8125rem;color:var(--an-text-secondary)}
 .agent-composer{display:flex;gap:8px;padding:12px 12px 6px;border-top:1px solid var(--an-border);background:var(--an-bg)}
-.agent-composer textarea{flex:1;resize:none;font:inherit;font-size:1rem;line-height:1.45;padding:10px 12px;border-radius:10px;border:1px solid var(--an-border-strong);background:var(--an-surface);color:var(--an-text);max-height:120px}
+.agent-composer textarea{flex:1;resize:none;font:inherit;font-size:.9375rem;line-height:1.4;padding:10px 12px;border-radius:10px;border:1px solid var(--an-border-strong);background:var(--an-surface);color:var(--an-text);max-height:120px}
 .agent-send{width:42px;height:42px;border-radius:10px;border:0;background:var(--an-accent);color:var(--an-on-accent);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto}
-.agent-foot{margin:0;padding:6px 16px 12px;font-size:.8125rem;color:var(--an-text-tertiary);background:var(--an-bg)}
+.agent-foot{margin:0;padding:6px 16px 12px;font-size:.75rem;color:var(--an-text-tertiary);background:var(--an-bg)}
 
 /* Front Desk agent (launch swap): hold the inline panel's space until its script arrives, so nothing below it moves */
 [data-ainative-inline]{min-height:560px}
