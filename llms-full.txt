@@ -202,7 +202,7 @@ URL: https://ainative.ai/index.html
  Training is inside the Install. Nothing goes live until your staff can run it, and the first thing every person gets is a Chief of Staff agent — so the first thing the workforce does is give them their day back.
 
 #### What does it cost against a hire?
- Far less than the person you would otherwise have hired — for far more than one person's work. You pay one firm one predictable price for a workforce that covers every department and works around the clock: no salary, no benefits, no recruiting, no turnover. The Evaluation ends with your number in writing.
+ Far less than the person you would otherwise have hired — for far more than one person's work. You pay one firm one predictable price for a workforce that covers every department and works around the clock: no salary, no benefits, no recruiting, no turnover. You receive your number in writing after the Evaluation.
 
 #### Who do I call when it breaks?
  Us. One firm, one number. The Management stage exists for exactly this: we run it, update it, and answer the phone.
@@ -230,7 +230,7 @@ How it works
  1 
 ### The Evaluation
  A senior leader who has run a business like yours meets with you and your leadership — the owner, and whoever runs the office, the books, sales, and service. Department by department we map the work that is done by hand today: the phones, the leads, the proposals, the orders, the invoices, the reminders, the follow-up nobody gets to. We show you which of it an agent takes, which tools you keep, which we bring, and who checks it.
- What you leave with: the map of your manual work, the tools and the workforce we would install, the number, and the timeline — in writing.
+ What you receive afterward: the map of your manual work, the tools and the workforce we would install, the number, and the timeline — in writing.
 
  2 
 ### The Install
@@ -291,7 +291,7 @@ How it works
  If the honest answer is that one department is worth doing and the rest are not, that is the answer you get. The map is yours either way.
 
 #### Not a commitment
- The Evaluation ends with a written plan. The Install begins only when your leadership signs it.
+ A written plan follows the Evaluation. The Install begins only when your leadership signs it.
 
 ### Who should be in the room.
 
@@ -304,13 +304,13 @@ How it works
  Training is inside the Install. Nothing goes live until your staff can run it, and the first thing every person gets is a Chief of Staff agent — so the first thing the workforce does is give them their day back.
 
 #### What does it cost against a hire?
- Far less than the person you would otherwise have hired — for far more than one person's work. You pay one firm one predictable price for a workforce that covers every department and works around the clock: no salary, no benefits, no recruiting, no turnover. The Evaluation ends with your number in writing.
+ Far less than the person you would otherwise have hired — for far more than one person's work. You pay one firm one predictable price for a workforce that covers every department and works around the clock: no salary, no benefits, no recruiting, no turnover. You receive your number in writing after the Evaluation.
 
 #### Who do I call when it breaks?
  Us. One firm, one number. The Management stage exists for exactly this: we run it, update it, and answer the phone.
 
 ### Book the Evaluation.
- We meet with you and your leadership, map every department's manual work, and show you where an agent workforce fits. You leave with the number and the timeline in writing.
+ We meet with you and your leadership, map every department's manual work, and show you where an agent workforce fits. You receive the number and the timeline in writing afterward.
 
  Book the Evaluation See how the Install works
 
@@ -523,7 +523,7 @@ Your business · We serve people in person B2C
  “The inbox is where our day goes.”
 
 ### Map your departments.
- An hour with your leadership. You leave with the map of your manual work, the workforce we would install, the number, and the timeline — in writing.
+ An hour with your leadership. Afterward, you receive the map of your manual work, the workforce we would install, the number, and the timeline — in writing.
 
  Book the Evaluation See how the Install works
 
@@ -607,7 +607,7 @@ Your business · We sell products to people B2C
  “Every missed call is a job for somebody else.”
 
 ### Map your departments.
- An hour with your leadership. You leave with the map of your manual work, the workforce we would install, the number, and the timeline — in writing.
+ An hour with your leadership. Afterward, you receive the map of your manual work, the workforce we would install, the number, and the timeline — in writing.
 
  Book the Evaluation See how the Install works
 
@@ -689,7 +689,7 @@ Your business · We serve other businesses B2B
  “The inbox is where our day goes.”
 
 ### Map your departments.
- An hour with your leadership. You leave with the map of your manual work, the workforce we would install, the number, and the timeline — in writing.
+ An hour with your leadership. Afterward, you receive the map of your manual work, the workforce we would install, the number, and the timeline — in writing.
 
  Book the Evaluation See how the Install works
 
@@ -773,7 +773,7 @@ Your business · We supply other businesses B2B
  “The inbox is where our day goes.”
 
 ### Map your departments.
- An hour with your leadership. You leave with the map of your manual work, the workforce we would install, the number, and the timeline — in writing.
+ An hour with your leadership. Afterward, you receive the map of your manual work, the workforce we would install, the number, and the timeline — in writing.
 
  Book the Evaluation See how the Install works
 
@@ -824,7 +824,7 @@ Straight answers
  Training is inside the Install. Nothing goes live until your staff can run it, and the first thing every person gets is a Chief of Staff agent — so the first thing the workforce does is give them their day back.
 
 #### What does it cost against a hire?
- Far less than the person you would otherwise have hired — for far more than one person's work. You pay one firm one predictable price for a workforce that covers every department and works around the clock: no salary, no benefits, no recruiting, no turnover. The Evaluation ends with your number in writing.
+ Far less than the person you would otherwise have hired — for far more than one person's work. You pay one firm one predictable price for a workforce that covers every department and works around the clock: no salary, no benefits, no recruiting, no turnover. You receive your number in writing after the Evaluation.
 
 #### Who do I call when it breaks?
  Us. One firm, one number. The Management stage exists for exactly this: we run it, update it, and answer the phone.
@@ -845,7 +845,7 @@ Straight answers
  A solo operator gets the first staff they have ever had. A 300-person distributor gets an agent in every department. The Evaluation is where complicated gets mapped.
 
 #### How long does it take?
- We give you the timeline in writing at the end of the Evaluation, and we do not install anything until your staff can run it.
+ We give you the timeline in writing after the Evaluation, and we do not install anything until your staff can run it.
 
 #### Do we have to change our software?
  No. If you like your tools, you keep them; the agents are tied into what you already use. Where a tool is missing — chat on your site, a calendar, a bookkeeping system, a customer-service inbox — we bring one that is ready for agents, set it up, and train you.
@@ -854,7 +854,7 @@ Straight answers
  No — it is the usual starting point. An agent needs a tool to work inside, so where one is missing we bring it. We choose it for the outcome you want, license it on your behalf or provide our own, set it up, and train you. It is in the plan and the price.
 
 #### Will we have to buy a lot of software?
- No. You keep what works. We add only what the work needs, and it is inside the one price you see at the end of the Evaluation — not a stack of subscriptions for you to manage.
+ No. You keep what works. We add only what the work needs, and it is inside the one price you receive in writing after the Evaluation — not a stack of subscriptions for you to manage.
 
 #### What happens if we stop?
  Management ends and the agents are retired from your systems. Nothing about your business is held hostage; the terms are in the agreement you sign before the Install.
@@ -938,7 +938,7 @@ About
  A-I Native. The letters, then the word. Two words, capital A, capital I, capital N. The address is ainative.ai.
 
 ### Book the Evaluation.
- We meet with you and your leadership, map every department's manual work, and show you where an agent workforce fits. You leave with the number and the timeline in writing.
+ We meet with you and your leadership, map every department's manual work, and show you where an agent workforce fits. You receive the number and the timeline in writing afterward.
 
  Book the Evaluation See how the Install works
 
@@ -1008,7 +1008,7 @@ Book the Evaluation
 
 - The Evaluation. A senior leader who has run a business like yours goes through your departments one at a time, maps the work done by hand today, and shows you what an agent takes, what it is tied into, and who checks it.
 
-- The plan. You leave with the tools you keep, the tools we bring, the workforce we would install, the number, and the timeline — in writing. The Install begins only when your leadership signs.
+- The plan. After the Evaluation, you receive the tools you keep, the tools we bring, the workforce we would install, the number, and the timeline — in writing. The Install begins only when your leadership signs.
 
 ### Who leads it
 
